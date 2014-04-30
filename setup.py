@@ -12,10 +12,13 @@ setup(name='example',
           'nose>=1.3.0',
           'coverage',
           'mox',
+          'sphinx',
           'sphinxcontrib-napoleon'
           ],
       install_requires = [
-          'python-dateutil'
+          'python-dateutil',
+          'sphinx',
+          'sphinxcontrib-napoleon'
       ]
     )
 

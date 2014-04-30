@@ -1,6 +1,6 @@
 .coverage
 *.pyc
 coverage.xml
-doc
 *.egg/
 *.egg-info
+docs/
