@@ -6,7 +6,7 @@ setup(name='example',
       author='Adam Gray',
       author_email='adam@addumb.com, akshay@quixey.com',
       packages=find_packages(exclude=["tests*"]),
-      setup_requires = ['sphinx', 'sphinxcontrib-napoleon'],
+      setup_requires = ['nose>=1.3.0', 'sphinx', 'sphinxcontrib-napoleon'],
       scripts=['examplescript'],
       tests_require = [
           'nose>=1.3.0',
