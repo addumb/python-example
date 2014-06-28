@@ -2,7 +2,6 @@ class Example(object):
 
     thing = None
 
-    def __init__(self):
+    def __init__(self, newthing=None):
         """Constructor for Example."""
-        thing = "Not nothing."
-
+        self.thing = newthing
