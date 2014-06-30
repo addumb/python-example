@@ -1,4 +1,4 @@
-!(Travis Build Status)[https://api.travis-ci.org/addumb/python-example.svg]
+[![Build Status](https://travis-ci.org/addumb/python-example.svg?branch=master)](https://travis-ci.org/addumb/python-example)
 python-example
 ==============
 
