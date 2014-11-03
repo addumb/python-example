@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(name='example',
-      version=0.5,
+      version=0.1,
       description='An example python project.',
       author='Adam Gray',
-      author_email='adam@addumb.com, akshay@quixey.com',
+      author_email='adam@addumb.com',
       packages=find_packages(exclude=["tests*"]),
       setup_requires = ['nose>=1.3.0', 'sphinx', 'sphinxcontrib-napoleon'],
       scripts=['examplescript'],
@@ -16,9 +16,7 @@ setup(name='example',
           'sphinxcontrib-napoleon'
           ],
       install_requires = [
-          'python-dateutil',
-          'sphinx',
-          'sphinxcontrib-napoleon'
+          'python-dateutil'
       ]
     )
 
