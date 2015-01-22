@@ -6,19 +6,22 @@ setup(name='example',
       author='Adam Gray',
       author_email='adam@addumb.com, akshay@quixey.com',
       packages=find_packages(exclude=["tests*"]),
-      setup_requires = ['nose>=1.3.0', 'sphinx', 'sphinxcontrib-napoleon'],
+      setup_requires = [
+          'nose',
+          'sphinx<1.3b',
+          'sphinxcontrib-napoleon',
+          'setuptools-pep8',
+          'setuptools-lint'],
       scripts=['examplescript'],
       tests_require = [
-          'nose>=1.3.0',
+          'nose',
           'coverage',
           'mox',
           'sphinx',
           'sphinxcontrib-napoleon'
           ],
       install_requires = [
-          'python-dateutil',
-          'sphinx',
-          'sphinxcontrib-napoleon'
+          'python-dateutil'
       ]
     )
 

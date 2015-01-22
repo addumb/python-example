@@ -1,4 +1,7 @@
 class Example(object):
+    """Example class.
+    This docstring should show up on readthedocs.org.
+    """
 
     thing = None
 
