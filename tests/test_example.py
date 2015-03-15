@@ -1,11 +1,11 @@
 import unittest
 import example
 
+
 class ExampleTest(unittest.TestCase):
 
     def testUseless(self):
-        ex = example.Example('test')
-        self.assertTrue(ex.thing == 'test')
+        pass
 
 if __name__ == '__main__':
     unittest.main()

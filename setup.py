@@ -4,21 +4,18 @@ setup(name='example',
       version=0.5,
       description='An example python project.',
       author='Adam Gray',
-      author_email='adam@addumb.com, akshay@quixey.com',
+      author_email='adam@addumb.com',
       packages=find_packages(exclude=["tests*"]),
-      setup_requires = ['nose>=1.3.0', 'sphinx', 'sphinxcontrib-napoleon'],
-      scripts=['examplescript'],
-      tests_require = [
-          'nose>=1.3.0',
+      setup_requires=[
+          'nose',
+      ],
+      scripts=['examplescript', 'run.py'],
+      requires=open('requirements.txt').read().splitlines(),
+      tests_require=[
+          'flask',
+          'nose',
           'coverage',
           'mox',
-          'sphinx',
-          'sphinxcontrib-napoleon'
           ],
-      install_requires = [
-          'python-dateutil',
-          'sphinx',
-          'sphinxcontrib-napoleon'
-      ]
     )
 
