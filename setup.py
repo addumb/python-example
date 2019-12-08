@@ -1,3 +1,6 @@
+from setuptools import setup, find_packages
+
+
 setup(
     name="example",
     version=0.5,
@@ -7,7 +10,7 @@ setup(
     packages=find_packages(exclude=["tests*"]),
     setup_requires=[
         "nose",
-        "sphinx<1.3b",
+        "sphinx<1.4",
         "sphinxcontrib-napoleon",
         "setuptools-pep8",
         "setuptools-lint",
